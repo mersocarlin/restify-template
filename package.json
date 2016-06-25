@@ -4,6 +4,8 @@
   "description": "Template for building REST api with restify library.",
   "main": "index.js",
   "scripts": {
+    "start": "node bin/service.js",
+    "lint": "./node_modules/.bin/eslint src/"
   },
   "repository": {
     "type": "git",
